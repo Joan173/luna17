@@ -1,0 +1,67 @@
+/* styles.css */
+
+body {
+	margin: 0 auto; /* margen arriba y abajo 0 y por los lados se ajusta */
+	width: 960px;
+}
+
+#gameScreen {
+	margin: 0 auto;
+	width: 800px;
+	height: 600px;
+	background-image: url("../img/moon_back.png");
+}
+
+#ship {
+	z-index: 98;
+	position: absolute;
+	margin: 430px 100px 10px 100px; /* esto se cambia en js*/
+
+	background-image: url("../img/rocket.png");
+	width: 57px;
+	height: 70px;
+	max-width: 57px;
+	max-height: 70px;
+	
+}
+
+#sky {
+	float: left;
+	height: 419px; /* la altura de 600 - la altura del land */
+	width: 100%;
+}
+
+#control {
+	z-index: 99;
+	position: absolute;
+	margin: 50px; /* esto se cambia en js*/	
+	width: 200px;
+	height: 100px;
+	background-color: #03f; /*azul*/
+}
+
+#options {
+	z-index: 99;
+	position: absolute;
+	margin: 50px 50px 0px 550px; /* esto se cambia en js*/	
+	width: 200px;
+	height: 100px;
+	background-color: #03f; /*azul*/
+}
+
+#options a {
+	color: #fff;
+}
+
+#land {
+	z-index: 98;
+	float: left;
+	height: 181px;
+	bottom: 0px;
+	width: 100%;
+	background-image: url("../img/moon.png");
+}
+
+.texto {
+	color: #fff;
+}
